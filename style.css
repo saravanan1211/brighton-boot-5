@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    position: relative;
+    background-color:#78853f;
+    height: 90vh;
+}
+.header-section{
+    background-color:#90953b;
+}
+.drp li a{
+    color: white;
+    margin-left: 50px;
+}
+.drp li a:hover{
+    border-bottom: 2px solid yellow;
+}
+.slides{
+    background-image: url(images/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    margin-top: 50px;
+}
+.box-8{
+    margin-top: 100px;
+}
+
+.logo.hover{
+    background-color: #90953b;
+}
+.texa button{
+    margin-top: -70px;
+    margin-left: 70%;
+    border-radius: 30px;
+    border: none;
+}
+@media(min-width:375px) and (max-width:1024px)
+{
+.slides{
+    margin-top: 10px;
+    height: 380px;
+}
+.box-8{
+    margin-top: 30px;
+}
+.box-13{
+    width: 50%;
+}
+.box-15{
+    margin-right: 100px;
+
+
+}
+.texa button{
+    margin-left: 60%;
+    
+}
+.line{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
